@@ -38,7 +38,7 @@ _Deploy this project on Netlify or Vercel for demo._
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR-USERNAME/global-monopoly.git
+gh repo clone kizzydez/TEST-GLOBAL-MONOPOLY--BUILD
 
 # Install dependencies
 cd global-monopoly
