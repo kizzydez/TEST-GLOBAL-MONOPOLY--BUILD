@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  background: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+.navbar {
+  display: flex; justify-content: space-between; padding: 1rem;
+}
+button {
+  margin: 0 0.5rem;
+}
+/* Add in App.css */
+.dice-roll {
+  animation: roll 1s ease-in-out;
+}
+
+@keyframes roll {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(360deg); }
+  100% { transform: rotate(720deg); }
+}
